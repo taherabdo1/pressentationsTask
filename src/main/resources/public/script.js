@@ -6,7 +6,7 @@ function MyController($scope, $http) {
 
 	$http({
 		method : 'GET',
-		url : 'http://prezitask.herokuapp.com/presentations',
+		url : 'http://prezipresentations.herokuapp.com/presentations',
 	}).success(function(response) {
 		$scope.presentations = response;
 		console.log(response);
