@@ -23,7 +23,8 @@ public class PresentationDataResource {
         byte[] buf = new byte[8192];
         int c = 0;
 		try{
-        ApplicationContext appContext =
+        @SuppressWarnings("resource")
+		ApplicationContext appContext =
          	   new ClassPathXmlApplicationContext(new String[]{});
 
          	Resource resource =
