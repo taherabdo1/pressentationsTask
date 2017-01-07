@@ -2,7 +2,7 @@ package prezi.model;
 
 import java.util.List;
 
-import entities.Presentation;
+import prezi.entities.Presentation;
 
 
 public interface PresentationDaoInt {

@@ -8,11 +8,11 @@ import java.util.List;
 
 import org.springframework.stereotype.Component;
 
+import prezi.entities.Presentation;
+
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.google.gson.stream.JsonReader;
-
-import entities.Presentation;
 
 @Component
 public class PresentaionDao implements PresentationDaoInt{
